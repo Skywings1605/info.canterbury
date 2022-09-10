@@ -1,0 +1,115 @@
+.top {
+    background-image: url("../Images/plot.png");
+    height:310px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    padding: 7%;
+    z-index: -1px;
+}
+.btmleft {
+    background-color: gray;
+    border: 2px solid green;
+}
+.btmright {
+    background-color: white;
+    margin-bottom: -100px;
+    z-index: 1px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid gray;
+}
+.footer{
+    width: 40%;
+}
+form{
+    padding: 20px;
+    background-color: white;
+}
+input{
+    border: none;
+    width: 100%;
+    height: 30px;
+}
+input:focus {
+    
+    outline: none;
+}
+.righth3 {
+    height: 40px;
+    padding-top: 2px;
+    background-color: #6a6a6a;
+}
+.righth3 > h3 {
+    margin-top: 0px;
+    font-size: 25px;
+}
+hr {
+    margin-top: 0px
+}
+.btn {
+    padding: 5px;
+    background-color: #0b2d39;
+    color: antiquewhite;
+    width: 100%;
+    justify-content: center;
+}
+.btmbtn {
+    padding: 10px;
+    background-color: #0b2d39;
+    color: antiquewhite;
+    /* width: 10%; */
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+}
+.imgArrow {
+    width: 20px;
+    margin-left: 10px;
+}
+.soph {
+    padding: 10%;
+}
+.btmsop {
+    display: flex;
+    gap: 5%;
+}
+ul {
+    text-align: left;
+}
+.bottom {
+    padding: 30px;
+    display: flex;
+    gap: 2%;
+}
+
+@media only screen and (min-width: 0px) and (max-width:1023px) {
+    .btmsop {
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+    }
+    .right {
+        /* display: none; */
+    }
+    .bottom {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    /* .btmleft {
+        background-color: white;
+        margin-bottom: -100px;
+        z-index: 1px;
+        width: 100%;
+        height: 100%;
+        border: 1px solid gray;
+    } */
+    .btmright {
+        width: 100%;
+        height: 100%;
+    }
+}
